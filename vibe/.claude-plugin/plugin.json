@@ -1,0 +1,22 @@
+{
+  "name": "vibe",
+  "version": "1.0.0",
+  "description": "Terminal-native social layer for Claude Code",
+  "author": {
+    "name": "Vibe",
+    "email": "support@slashvibe.dev",
+    "url": "https://slashvibe.dev"
+  },
+  "repository": "https://github.com/bflynn4141/vibe-plugin",
+  "license": "MIT",
+  "mcpServers": {
+    "vibe": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "slashvibe-mcp"],
+      "env": {
+        "VIBE_API_URL": "https://www.slashvibe.dev"
+      }
+    }
+  }
+}

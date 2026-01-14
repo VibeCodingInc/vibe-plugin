@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "vibe-plugins",
+  "description": "Official /vibe plugins for Claude Code - terminal-native social",
+  "owner": {
+    "name": "Vibe",
+    "email": "support@slashvibe.dev"
+  },
+  "plugins": [{
+    "name": "vibe",
+    "version": "1.0.0",
+    "description": "Terminal-native social layer for Claude Code",
+    "category": "social",
+    "source": "./vibe",
+    "homepage": "https://slashvibe.dev"
+  }]
+}
