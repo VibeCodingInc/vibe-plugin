@@ -80,6 +80,24 @@ You: [silently calls vibe_dm]
 You: "✓ Sent to @seth"
 ```
 
+## 🔄 Task Completion Notifications
+
+When completing work that originated from a /vibe conversation:
+
+1. **Remember who requested the work** - When you read a DM asking for something, note the handle and request
+2. **Complete the work** - Do whatever they asked
+3. **Offer to notify** - When offering next actions, include "Tell [person] it's done"
+4. **Use compose flow** - If selected: draft → approval → `vibe_dm` → confirm
+
+**Example:**
+```
+[After completing docs that @seth requested via DM]
+AskUserQuestion options:
+- "Tell Seth the docs are ready" ← contextual loop-closing
+- "Push to remote"
+- "Continue editing"
+```
+
 ## 🚫 What NOT To Do
 
 - ❌ "I'm going to call vibe_remember with handle @seth and observation..."
