@@ -72,6 +72,14 @@ vibe-plugin/
 └── README.md
 ```
 
+## Integrations
+
+Want push notifications when you get DMs? Check out the integration guides:
+
+- **[Telegram Notifications](./docs/integrations/telegram-notifications.md)** - Get instant push via Telegram bot
+- Discord Notifications (coming soon)
+- Slack Notifications (coming soon)
+
 ## Links
 
 - **Live**: https://slashvibe.dev
