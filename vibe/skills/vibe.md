@@ -5,7 +5,7 @@ description: Terminal-native social for developers. Triggers on "vibe", "let's v
 
 # Vibe Skill
 
-When triggered, run `/vibe:start` to begin a vibe session.
+When triggered, call `vibe_start` to begin a vibe session.
 
 ## What is /vibe?
 

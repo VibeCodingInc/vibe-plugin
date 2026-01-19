@@ -22,8 +22,6 @@ Once installed, just say:
 - **"check messages"** to see your inbox
 - **"dm @handle"** to message someone
 
-Or use the slash command: `/vibe:start`
-
 ## What is /vibe?
 
 /vibe is a social layer for developers building with Claude Code. It lets you:
@@ -67,7 +65,7 @@ vibe-plugin/
 │   ├── skills/
 │   │   └── vibe.md           # Natural language triggers
 │   ├── commands/
-│   │   └── start.md          # /vibe:start slash command
+│   │   └── start.md          # Start session behavior
 │   └── CLAUDE.md             # Instructions (updated with plugin!)
 └── README.md
 ```
