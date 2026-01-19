@@ -4,14 +4,22 @@ Terminal-native social layer for Claude Code users.
 
 ## Installation
 
+### Option 1: Claude Code Plugin (Recommended)
+
 ```bash
 # Add the marketplace
-claude plugin marketplace add https://github.com/bflynn4141/vibe-plugin
+claude plugin marketplace add https://github.com/VibeCodingInc/vibe-plugin
 
 # Install the plugin
 claude plugin install vibe@vibe-plugins
 
 # Restart Claude Code
+```
+
+### Option 2: npx (One-liner)
+
+```bash
+npx claude-plugins install vibe@VibeCodingInc/vibe-plugin
 ```
 
 ## Usage
